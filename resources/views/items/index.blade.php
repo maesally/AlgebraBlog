@@ -6,7 +6,7 @@
 	</head>
 	<body>
 		@foreach ($items as $item)
-		<h2><a href="{{ $item->id }}">{{ $item->title }}</a></h2>
+		<h2><a href="items/{{ $item->id }}">{{ $item->title }}</a></h2>
 		<div>{{ $item->Content }}</div>
 		@endforeach
 	</body>
