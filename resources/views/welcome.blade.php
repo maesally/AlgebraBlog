@@ -1,14 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html lang="hr">
     <head>
+	<meta charset="utf-8">
         <title>Laravel projekt</title>
     </head>
     <body>
-        <h2>Dobrodošli!</h2>
-		@foreach ($items as $item)
-			<a href="/item/{{ $item->id }}">
-			{{ $item->title }}
-			<br />
-		@endforeach
+        <h2><a href="items">Dobrodošli na AlgebraBlog!</a></h2>
+		
     </body>
 </html>

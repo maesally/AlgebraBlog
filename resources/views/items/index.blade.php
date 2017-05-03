@@ -2,10 +2,12 @@
 <html lang="hr">
     <head>
 	<meta charset="utf-8">
-		<title>Laravel projekt</title>
+		<title>AlgebraBlog</title>
 	</head>
 	<body>
-		<h2>{{ $item->title }}</h2>
+		@foreach ($items as $item)
+		<h2><a href="{{ $item->id }}">{{ $item->title }}</a></h2>
 		<div>{{ $item->Content }}</div>
+		@endforeach
 	</body>
 </html>
