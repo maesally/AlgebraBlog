@@ -5,6 +5,7 @@
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
 		<h2>{{ $item->title }}</h2>
+		<h3>{{ $item->created_at }}</h3>
 		<div>{{ $item->Content }}</div>
 		</div>
     </div>
