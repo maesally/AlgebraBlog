@@ -1,11 +1,12 @@
-<!DOCTYPE html>
-<html lang="hr">
-    <head>
-	<meta charset="utf-8">
-		<title>Laravel projekt</title>
-	</head>
-	<body>
+@extends('layouts.app')
+
+@section('content')
+<div class="container">
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2">
 		<h2>{{ $item->title }}</h2>
 		<div>{{ $item->Content }}</div>
-	</body>
-</html>
+		</div>
+    </div>
+</div>
+@endsection
